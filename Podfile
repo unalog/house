@@ -6,15 +6,26 @@ target 'House' do
   use_frameworks!
 
   # Pods for House
+  pod 'RxSwift',    '~> 4.0'
+  pod 'RxCocoa',    '~> 4.0'
+  pod 'Alamofire', '~> 4.5'
 
   target 'HouseTests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'RxSwift',    '~> 4.0'
+    pod 'RxCocoa',    '~> 4.0'
+    pod 'Alamofire', '~> 4.5'
+
   end
 
   target 'HouseUITests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'RxSwift',    '~> 4.0'
+    pod 'RxCocoa',    '~> 4.0'
+    pod 'Alamofire', '~> 4.5'
+
   end
 
 end
